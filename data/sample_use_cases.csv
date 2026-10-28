@@ -1,0 +1,7 @@
+use_case_id,use_case,ai_type,risk_tier,status,controls_complete,monitoring_status,business_owner
+UC-001,Document Quality Review,GenAI,High,Approved,Yes,Active,Quality Operations
+UC-002,Claims Triage Assistant,GenAI,Medium,In Review,Partial,Planned,Claims
+UC-003,Fraud Risk Scoring,Traditional ML,High,Approved,Yes,Active,Fraud Operations
+UC-004,Policy Search Assistant,RAG,Medium,Pilot,Partial,Planned,Operations
+UC-005,Coding Assistant,GenAI,Low,Approved,Yes,Active,Technology
+UC-006,Workflow Agent,Agentic AI,High,Assessment,No,Not Started,Operations

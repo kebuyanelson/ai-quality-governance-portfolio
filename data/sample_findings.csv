@@ -1,0 +1,7 @@
+finding_id,item_name,finding_type,severity,confidence,finding_summary,recommendation,evidence_reference,review_status,business_owner,risk_flag
+QAI-001,Supplier Quality Report 1042,Missing approval evidence,High,0.92,Approval signature not detected in final section.,Verify approval evidence before release.,Section 8.2 / Approval block,Pending,Quality Operations,Approval evidence
+QAI-002,Batch Record 771,Date inconsistency,Medium,0.81,Inspection date precedes production completion date.,Confirm source dates and correct record if needed.,Pages 3 and 11,Pending,Manufacturing Quality,None
+QAI-003,CAPA Review 329,Potential duplicate action,Low,0.73,Corrective action appears similar to a previously closed action.,Confirm whether this is a true duplicate.,Action 4 / prior CAPA 288,Accepted,Quality Systems,None
+QAI-004,Release Package 551,Missing supporting document,Critical,0.88,Required validation attachment is referenced but not present.,Do not release until documentation is verified.,Release checklist item 12,Pending,Release Management,Release blocker
+QAI-005,Audit Response 912,Ambiguous recommendation,Medium,0.67,AI recommendation is not sufficiently supported by cited evidence.,Request additional evidence or manual assessment.,Finding 5 / evidence set B,Needs more evidence,Compliance,Low confidence
+QAI-006,Quality Review 621,Formatting issue,Low,0.95,Document version label does not match naming convention.,Correct metadata before archival.,Header metadata,Rejected,Document Control,None
